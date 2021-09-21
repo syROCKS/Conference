@@ -1,0 +1,122 @@
+@media only screen and (max-width: 767px) {
+  /* body {
+    padding-left: 1%;
+    padding-right: 1%;
+  } */
+  .section-heading {
+    font-size: 1.5rem;
+  }
+  .aboutUs_content {
+    font-size: 0.8rem;
+  }
+  .education .timeline .timeline-item-inner p {
+    font-size: 0.8rem;
+  }
+  .education .timeline .timeline-item-inner h3 {
+    font-size: 1rem;
+  }
+
+  .mainGate {
+    max-width: 100%;
+  }
+  .section {
+    overflow-y: visible;
+  }
+  .contact-wrapper {
+    overflow-y: scroll;
+  }
+  .section-inner-row {
+    padding: 0 2%;
+  }
+  #home {
+    overflow: hidden;
+  }
+  .aboutUs_card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .aboutUs_card_inner {
+    margin: 2% 5%;
+  }
+  .timeline-row {
+    position: relative;
+    top: 90%;
+  }
+  .venue-wrapper {
+    overflow-y: visible;
+  }
+  .venue-wrapper .venue-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .map {
+    width: 300px;
+    height: 400px;
+  }
+  .sponsors {
+    position: relative;
+    top: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-box {
+    max-width: 50%;
+    margin: 2% 2%;
+  }
+  .education .timeline .timeline-item:nth-child(odd) {
+    padding-right: 15px;
+    padding-left: 75px;
+    text-align: left;
+  }
+  .education .timeline .timeline-item:nth-child(even) {
+    padding-right: 15px;
+    padding-left: 75px;
+    text-align: left;
+  }
+  .education .timeline:before {
+    left: 35px;
+  }
+  .education .timeline .timeline-item:nth-child(even) .icon,
+  .education .timeline .timeline-item:nth-child(odd) .icon {
+    right: auto;
+    left: -60px;
+  }
+  .education
+    .timeline
+    .timeline-item:nth-child(odd)
+    .timeline-item-inner:before {
+    left: -30px;
+    right: auto;
+  }
+  .education .timeline .timeline-item {
+    margin-bottom: 40px;
+  }
+  .education .timeline .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .contact-wrapper .submit-btn {
+    text-align: center;
+  }
+  .contact-wrapper .w-50,
+  .contact-wrapper .contact-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  /* body {
+    padding-left: 1%;
+    padding-right: 1%;
+  } */
+  .venue-wrapper .map iframe {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 2%;
+    height: auto;
+  }
+  .section-inner-row-content {
+    max-width: 1140px;
+    padding: 1% 6%;
+  }
+}
